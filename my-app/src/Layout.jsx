@@ -1,7 +1,9 @@
 import React from 'react';
 import {
+    Button,
     Card,
     CardActionArea,
+    CardActions,
     CardMedia,
     Grid,
     Typography
@@ -30,6 +32,13 @@ function Layout() {
                                 </Typography>
                             </CardContent>
                         </CardActionArea>
+
+                        <CardActions>
+                            <Button size="small" color="primary">
+                                Shared
+                            </Button>
+                        </CardActions>
+
                     </Card>
                 </Grid>
             </Grid>
