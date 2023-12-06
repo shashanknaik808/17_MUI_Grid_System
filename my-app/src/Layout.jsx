@@ -4,6 +4,7 @@ import {
     Card,
     CardActionArea,
     CardActions,
+    CardContent,
     CardMedia,
     Grid,
     Typography
@@ -19,16 +20,16 @@ function Layout() {
                             <CardMedia
                                 component="img"
                                 height="140"
-                                image="/static/images/cards/contemplative-reptile.jpg"
-                                alt="green iguana"
+                                image="/images/igneel.jpg"
+                                alt="Fire Dragon King 'IGNEEL'"
                             />
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="div">
-                                    Lizard
+                                    IGNEEL
                                 </Typography>
                                 <Typography variant="body2" color="text.secondary">
-                                    Lizards were a widespread group of squamate reptiles, with over 6,000
-                                    species, ranging across all continents except Antarctica
+                                    Igneel is a male fire dragon and the adoptive father of Dragon Slayer Natsu Dragneel, a wizard of the guild Fairy Tail. He is the king of the Fire Dragons and a friend of fellow fire dragon Atlas Flame. He was also the biological father of Ignia, the Fire God Dragon.
+
                                 </Typography>
                             </CardContent>
                         </CardActionArea>
